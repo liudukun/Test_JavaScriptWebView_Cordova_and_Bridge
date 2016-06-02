@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		4340BF641CFD4D0500D42954 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4340BF631CFD4D0500D42954 /* main.m */; };
 		4340BF671CFD4D0500D42954 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4340BF661CFD4D0500D42954 /* AppDelegate.m */; };
-		4340BF6A1CFD4D0500D42954 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4340BF691CFD4D0500D42954 /* MasterViewController.m */; };
-		4340BF6D1CFD4D0500D42954 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4340BF6C1CFD4D0500D42954 /* DetailViewController.m */; };
 		4340BF701CFD4D0500D42954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4340BF6E1CFD4D0500D42954 /* Main.storyboard */; };
 		4340BF721CFD4D0500D42954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4340BF711CFD4D0500D42954 /* Assets.xcassets */; };
 		4340BF751CFD4D0500D42954 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4340BF731CFD4D0500D42954 /* LaunchScreen.storyboard */; };
+		4340BF7E1CFD4E1800D42954 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4340BF7D1CFD4E1800D42954 /* WebViewController.m */; };
+		436F0E341CFD5A4C0075A451 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 436F0E331CFD5A4C0075A451 /* index.html */; };
+		7754662D79617F97FEFF3AB3 /* libPods-Test_JavaScriptBridge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF1F72C89DB4C30A1B29236 /* libPods-Test_JavaScriptBridge.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +22,16 @@
 		4340BF631CFD4D0500D42954 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4340BF651CFD4D0500D42954 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4340BF661CFD4D0500D42954 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4340BF681CFD4D0500D42954 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		4340BF691CFD4D0500D42954 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		4340BF6B1CFD4D0500D42954 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		4340BF6C1CFD4D0500D42954 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		4340BF6F1CFD4D0500D42954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4340BF711CFD4D0500D42954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4340BF741CFD4D0500D42954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4340BF761CFD4D0500D42954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4340BF7C1CFD4E1800D42954 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		4340BF7D1CFD4E1800D42954 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		436F0E331CFD5A4C0075A451 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = ../../../../../Applications/XAMPP/xamppfiles/htdocs/index.html; sourceTree = "<group>"; };
+		45FAC7212E1972DB7873D6A5 /* Pods-Test_JavaScriptBridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test_JavaScriptBridge.release.xcconfig"; path = "Pods/Target Support Files/Pods-Test_JavaScriptBridge/Pods-Test_JavaScriptBridge.release.xcconfig"; sourceTree = "<group>"; };
+		9CF1F72C89DB4C30A1B29236 /* libPods-Test_JavaScriptBridge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Test_JavaScriptBridge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF9BB3DBB0CD000DD053A5F7 /* Pods-Test_JavaScriptBridge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test_JavaScriptBridge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Test_JavaScriptBridge/Pods-Test_JavaScriptBridge.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7754662D79617F97FEFF3AB3 /* libPods-Test_JavaScriptBridge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +51,8 @@
 			children = (
 				4340BF611CFD4D0500D42954 /* Test_JavaScriptBridge */,
 				4340BF601CFD4D0500D42954 /* Products */,
+				960BBEEF3F7434F497CC8E02 /* Pods */,
+				AFD9F58866DF474D489CEDCB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,11 +69,10 @@
 			children = (
 				4340BF651CFD4D0500D42954 /* AppDelegate.h */,
 				4340BF661CFD4D0500D42954 /* AppDelegate.m */,
-				4340BF681CFD4D0500D42954 /* MasterViewController.h */,
-				4340BF691CFD4D0500D42954 /* MasterViewController.m */,
-				4340BF6B1CFD4D0500D42954 /* DetailViewController.h */,
-				4340BF6C1CFD4D0500D42954 /* DetailViewController.m */,
 				4340BF6E1CFD4D0500D42954 /* Main.storyboard */,
+				4340BF7C1CFD4E1800D42954 /* WebViewController.h */,
+				4340BF7D1CFD4E1800D42954 /* WebViewController.m */,
+				436F0E331CFD5A4C0075A451 /* index.html */,
 				4340BF711CFD4D0500D42954 /* Assets.xcassets */,
 				4340BF731CFD4D0500D42954 /* LaunchScreen.storyboard */,
 				4340BF761CFD4D0500D42954 /* Info.plist */,
@@ -84,6 +89,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		960BBEEF3F7434F497CC8E02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF9BB3DBB0CD000DD053A5F7 /* Pods-Test_JavaScriptBridge.debug.xcconfig */,
+				45FAC7212E1972DB7873D6A5 /* Pods-Test_JavaScriptBridge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AFD9F58866DF474D489CEDCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CF1F72C89DB4C30A1B29236 /* libPods-Test_JavaScriptBridge.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -91,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4340BF791CFD4D0500D42954 /* Build configuration list for PBXNativeTarget "Test_JavaScriptBridge" */;
 			buildPhases = (
+				3B3DEA2494FF9B899C6DA7E8 /* 📦 Check Pods Manifest.lock */,
 				4340BF5B1CFD4D0500D42954 /* Sources */,
 				4340BF5C1CFD4D0500D42954 /* Frameworks */,
 				4340BF5D1CFD4D0500D42954 /* Resources */,
+				08E0DB97F769D58844DAFBB2 /* 📦 Embed Pods Frameworks */,
+				B54BB2DD8E75510BA24AF280 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -142,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4340BF751CFD4D0500D42954 /* LaunchScreen.storyboard in Resources */,
+				436F0E341CFD5A4C0075A451 /* index.html in Resources */,
 				4340BF721CFD4D0500D42954 /* Assets.xcassets in Resources */,
 				4340BF701CFD4D0500D42954 /* Main.storyboard in Resources */,
 			);
@@ -149,15 +175,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08E0DB97F769D58844DAFBB2 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Test_JavaScriptBridge/Pods-Test_JavaScriptBridge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B3DEA2494FF9B899C6DA7E8 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B54BB2DD8E75510BA24AF280 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Test_JavaScriptBridge/Pods-Test_JavaScriptBridge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4340BF5B1CFD4D0500D42954 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4340BF671CFD4D0500D42954 /* AppDelegate.m in Sources */,
-				4340BF6A1CFD4D0500D42954 /* MasterViewController.m in Sources */,
+				4340BF7E1CFD4E1800D42954 /* WebViewController.m in Sources */,
 				4340BF641CFD4D0500D42954 /* main.m in Sources */,
-				4340BF6D1CFD4D0500D42954 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +342,7 @@
 		};
 		4340BF7A1CFD4D0500D42954 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF9BB3DBB0CD000DD053A5F7 /* Pods-Test_JavaScriptBridge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Test_JavaScriptBridge/Info.plist;
@@ -280,6 +354,7 @@
 		};
 		4340BF7B1CFD4D0500D42954 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45FAC7212E1972DB7873D6A5 /* Pods-Test_JavaScriptBridge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Test_JavaScriptBridge/Info.plist;
@@ -308,6 +383,7 @@
 				4340BF7B1CFD4D0500D42954 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

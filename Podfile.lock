@@ -1,0 +1,15 @@
+PODS:
+  - Cordova (4.0.1)
+  - WebViewJavascriptBridge (5.0.5)
+
+DEPENDENCIES:
+  - Cordova (~> 4.0.1)
+  - WebViewJavascriptBridge
+
+SPEC CHECKSUMS:
+  Cordova: a83108a483fe01d06ecabb9d83bdbf773cb8b22c
+  WebViewJavascriptBridge: a4d502315f1b8d9a51cd6a9174147ed567ec3bc5
+
+PODFILE CHECKSUM: 57d1ea384d62d9a3a1295b48a054772ea23a9669
+
+COCOAPODS: 1.0.0
